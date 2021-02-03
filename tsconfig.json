@@ -3,7 +3,7 @@
         "strictNullChecks": false,
         "outDir": "./dist",
         "module": "CommonJS",
-        "target": "ES2019",
+        "target": "ES2018",
         "esModuleInterop": true,
         "allowJs": true
     }
