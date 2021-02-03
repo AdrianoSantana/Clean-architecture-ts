@@ -1,10 +1,8 @@
 'use strict'
 
 import { SignUpController } from './signup'
-import { MissingParamError } from '../errors/missingParamError'
-import { InvalidParamError } from '../errors/invalidParamError'
 import { EmailValidator } from '../protocols/emailValidator'
-import { ServerError } from '../errors/serverError'
+import { InvalidParamError, MissingParamError, ServerError } from '../errors/index'
 
 class EmailValidatorStub implements EmailValidator {
   isValid (email: string): boolean {
