@@ -16,12 +16,12 @@ describe('signup Route', () => {
     await accountCollection.deleteMany({})
   })
 
-  test('Should enable cors', async () => {
+  test('Should return an account on success', async () => {
     await request(app)
       .post('/api/signup')
       .send({
         name: 'any_name',
-        email: 'any_email',
+        email: 'any_email@gmail.com',
         password: 'any_password',
         passwordConfirmation: 'any_password'
       })
