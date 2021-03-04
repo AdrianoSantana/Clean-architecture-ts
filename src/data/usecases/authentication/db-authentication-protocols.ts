@@ -1,5 +1,5 @@
 export { Authentication, AuthenticationModel } from '../../../domain/usecases/authentication'
 export { HashComparer } from '../../protocols/criptography/hash-compare'
-export { TokenGenerator } from '../../protocols/criptography/token-generator'
+export { Encrypter } from '../../protocols/criptography/encrypter'
 export { LoadAccountByEmailRepository } from '../../protocols/db/load-account-by-email-repository'
 export { UpdateAccessTokenRepository } from '../../protocols/db/update-access-token-repository'
