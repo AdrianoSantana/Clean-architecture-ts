@@ -1,7 +1,7 @@
 'use strict'
 
-import { SignUpController } from './signup'
-import { AccountModel, AddAccount, AddAccountModel, Validation } from './signupProtocols'
+import { SignUpController } from './signup-controller'
+import { AccountModel, AddAccount, AddAccountModel, Validation } from './signupProtocols-controller'
 import { MissingParamError, ServerError } from '../../errors/index'
 import { HttpRequest } from '../../protocols'
 import { ok, badRequest, serverError } from '../../helpers/http/http-helper'

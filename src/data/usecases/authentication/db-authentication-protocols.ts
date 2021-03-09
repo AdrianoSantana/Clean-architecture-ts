@@ -1,5 +1,5 @@
 export { Authentication, AuthenticationModel } from '../../../domain/usecases/authentication'
 export { HashComparer } from '../../protocols/criptography/hash-compare'
 export { Encrypter } from '../../protocols/criptography/encrypter'
-export { LoadAccountByEmailRepository } from '../../protocols/db/load-account-by-email-repository'
-export { UpdateAccessTokenRepository } from '../../protocols/db/update-access-token-repository'
+export { LoadAccountByEmailRepository } from '../../protocols/db/account/load-account-by-email-repository'
+export { UpdateAccessTokenRepository } from '../../protocols/db/account/update-access-token-repository'
